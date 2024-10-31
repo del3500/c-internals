@@ -1,0 +1,12 @@
+--------------------------------------
+  n  | 2^n decimal | 2^n hexadecimal |
+-----+-------------+-----------------+
+  9  |     512     |     0x100
+  19 |    524288   |     0x80000
+
+n  = 2^19
+formula: i + 4j
+i = 3, j= 4
+19 = 3 + 4 * 4
+since i = 3, the binary represenatation will be 8 followed by j zeroes:
+ans = 0x80000
